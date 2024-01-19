@@ -23,7 +23,7 @@ header{
 header h1{
     color: white;
     font-family: var(--fonte-lulestore);
-    font-size: 4em;
+    font-size: 3.5em;
 }
 nav{
     background-color: var(--cor01);
@@ -39,4 +39,26 @@ nav a{
 }
 nav a:hover{
     background-color: var(--cor03);
+}
+main{
+    padding-top: 30px;
+    line-height: 1.7em;
+}
+main .produtos{
+    text-align: center;
+    margin-bottom: 30px;
+}
+main .botaocomprar{
+    background-color: green;
+    font-family: var(--fonte-padrão);
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 3px;
+    border-radius: 10px;
+    margin: auto;
+}
+main .botaocomprar:hover{
+    background-color: rgb(1, 97, 1);
 }
