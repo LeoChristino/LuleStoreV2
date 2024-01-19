@@ -41,8 +41,15 @@ nav a:hover{
     background-color: var(--cor03);
 }
 main{
-    padding-top: 30px;
+    padding-top: 30px;  
+    display: flex;
+    justify-content: space-around;
     line-height: 1.7em;
+}
+@media screen and (max-width: 1000px) {
+    main{
+        display: block;
+    }
 }
 main .produtos{
     text-align: center;
