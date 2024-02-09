@@ -47,7 +47,7 @@ main{
     flex-wrap: wrap;
     align-items: center;
     line-height: 1.7em;
-    max-width: 1000px;
+    max-width: 1400px;
     margin: auto;
 }
 @media screen and (max-width: 600px) {
@@ -56,9 +56,14 @@ main{
         flex-direction: column;
     }
 }
+main .menulateral{
+    height: 1000px;
+    float: left;
+}
 main .produtos{
     text-align: center;
     margin-bottom: 30px;
+    float: right;
 }
 main .botaocomprar{
     background-color: green;
