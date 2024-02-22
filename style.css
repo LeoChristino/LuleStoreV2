@@ -56,14 +56,10 @@ main{
         flex-direction: column;
     }
 }
-main .menulateral{
-    height: 1000px;
-    float: left;
-}
 main .produtos{
     text-align: center;
     margin-bottom: 30px;
-    float: right;
+    width: 300px;
 }
 main .botaocomprar{
     background-color: green;
